@@ -92,5 +92,5 @@ df = df.withColumn("datetime", get_datetime(df.ts))
 ## If you want to run this.
 
 1. Create an IAM role with access to S3 on AWS.
-2. Fill credentials on ```dwh.cfg``` file in order to get credentials from ```etl``` file.
+2. Fill credentials on ```dl.cfg``` file in order to get credentials from ```etl``` file.
 3. Run etl file.
